@@ -1,0 +1,104 @@
+{
+	"name": "FONT_AB_MENUSCORE",
+	"leading": 18,
+	"spacing": 0,
+	"charCount": 12,
+	"chars": {
+		"char_0": {
+			"code": 32,
+			"x": 13,
+			"y": 20,
+			"width": 4,
+			"height": 16,
+			"baseline": 14
+		},
+		"char_1": {
+			"code": 47,
+			"x": 13,
+			"y": 2,
+			"width": 6,
+			"height": 16,
+			"baseline": 14
+		},
+		"char_2": {
+			"code": 48,
+			"x": 21,
+			"y": 2,
+			"width": 11,
+			"height": 15,
+			"baseline": 13
+		},
+		"char_3": {
+			"code": 49,
+			"x": 32,
+			"y": 36,
+			"width": 8,
+			"height": 15,
+			"baseline": 13
+		},
+		"char_4": {
+			"code": 50,
+			"x": 21,
+			"y": 19,
+			"width": 9,
+			"height": 15,
+			"baseline": 13
+		},
+		"char_5": {
+			"code": 51,
+			"x": 2,
+			"y": 2,
+			"width": 9,
+			"height": 16,
+			"baseline": 13
+		},
+		"char_6": {
+			"code": 52,
+			"x": 34,
+			"y": 2,
+			"width": 10,
+			"height": 15,
+			"baseline": 13
+		},
+		"char_7": {
+			"code": 53,
+			"x": 43,
+			"y": 19,
+			"width": 8,
+			"height": 15,
+			"baseline": 14
+		},
+		"char_8": {
+			"code": 54,
+			"x": 21,
+			"y": 36,
+			"width": 9,
+			"height": 15,
+			"baseline": 13
+		},
+		"char_9": {
+			"code": 55,
+			"x": 32,
+			"y": 19,
+			"width": 9,
+			"height": 15,
+			"baseline": 13
+		},
+		"char_10": {
+			"code": 56,
+			"x": 46,
+			"y": 2,
+			"width": 10,
+			"height": 15,
+			"baseline": 13
+		},
+		"char_11": {
+			"code": 57,
+			"x": 2,
+			"y": 20,
+			"width": 9,
+			"height": 16,
+			"baseline": 14
+		}
+	}
+}

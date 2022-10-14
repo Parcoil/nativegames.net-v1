@@ -1,0 +1,192 @@
+{
+    "camera": [
+      {
+        "bottom": 8.157,
+        "id": "Slingshot",
+        "left": 232.203,
+        "right": 300.978,
+        "top": -43.424,
+        "x": 266.591,
+        "y": -17.634
+      },
+      {
+        "bottom": 8.31,
+        "id": "Castle",
+        "left": 267.216,
+        "right": 335.991,
+        "top": -43.271,
+        "x": 301.604,
+        "y": -17.48
+      }
+    ],
+    "counts": {
+      "birds": 4,
+      "blocks": 19,
+      "joints": 2
+    },
+    "id": "packHalloween2011_1/LevelP5_515.lua",
+    "scoreEagle": 21000,
+    "scoreGold": 37000,
+    "scoreSilver": 34000,
+    "theme": "BACKGROUND_HALLOWEEN_2011",
+    "world": {
+      "bird_1": {
+        "angle": 0,
+        "id": "BIRD_RED",
+        "x": 247.077,
+        "y": -0.949
+      },
+      "bird_2": {
+        "angle": 0,
+        "id": "BIRD_RED",
+        "x": 253.049,
+        "y": -1.066
+      },
+      "bird_3": {
+        "angle": 0,
+        "id": "BIRD_RED",
+        "x": 255.599,
+        "y": -1.066
+      },
+      "bird_4": {
+        "angle": 0,
+        "id": "BIRD_RED",
+        "x": 258.199,
+        "y": -1.066
+      },
+      "block_1": {
+        "angle": 89.927,
+        "id": "WOOD_BLOCK_2X2",
+        "x": 293.366,
+        "y": -14.303
+      },
+      "block_10": {
+        "angle": 89.98,
+        "id": "WOOD_BLOCK_2X2",
+        "x": 311.463,
+        "y": -14.343
+      },
+      "block_11": {
+        "angle": 0.409,
+        "id": "WOOD_TRIANGLE_4X4",
+        "x": 300.286,
+        "y": -24.2
+      },
+      "block_12": {
+        "angle": 0,
+        "id": "MISC_ESTRADE_9X3",
+        "x": 306.7,
+        "y": -1.2
+      },
+      "block_13": {
+        "angle": 89.985,
+        "id": "WOOD_BLOCK_10X1",
+        "x": 306.943,
+        "y": -7.465
+      },
+      "block_14": {
+        "angle": 89.842,
+        "id": "WOOD_BLOCK_10X1",
+        "x": 297.693,
+        "y": -7.427
+      },
+      "block_15": {
+        "angle": 359.683,
+        "id": "WOOD_BLOCK_10X1",
+        "x": 297.254,
+        "y": -12.762
+      },
+      "block_16": {
+        "angle": 0,
+        "id": "BLOCK_PUMPKIN_3",
+        "x": 295.902,
+        "y": -14.622
+      },
+      "block_17": {
+        "angle": 359.965,
+        "id": "WOOD_BLOCK_10X1",
+        "x": 307.358,
+        "y": -12.789
+      },
+      "block_18": {
+        "angle": 0,
+        "id": "BLOCK_PUMPKIN_3",
+        "x": 308.902,
+        "y": -14.622
+      },
+      "block_19": {
+        "angle": 89.883,
+        "id": "WOOD_BLOCK_10X1",
+        "x": 302.337,
+        "y": -7.464
+      },
+      "block_2": {
+        "angle": 356.122,
+        "id": "PIG_BASIC_MEDIUM",
+        "x": 302.532,
+        "y": -24.636
+      },
+      "block_3": {
+        "angle": 0.403,
+        "id": "WOOD_BLOCK_8X1",
+        "x": 302.426,
+        "y": -21.736
+      },
+      "block_4": {
+        "angle": 3.843,
+        "id": "BLOCK_LANTERN",
+        "x": 292.492,
+        "y": -7.476
+      },
+      "block_5": {
+        "angle": 270.2,
+        "id": "WOOD_BLOCK_8X1",
+        "x": 301.182,
+        "y": -17.261
+      },
+      "block_6": {
+        "angle": 270.321,
+        "id": "WOOD_BLOCK_8X1",
+        "x": 303.436,
+        "y": -17.257
+      },
+      "block_7": {
+        "angle": 356.691,
+        "id": "BLOCK_LANTERN",
+        "x": 312.243,
+        "y": -7.454
+      },
+      "block_8": {
+        "angle": 270.44,
+        "id": "WOOD_TRIANGLE_4X4",
+        "x": 304.667,
+        "y": -24.168
+      },
+      "block_9": {
+        "angle": 0,
+        "id": "MISC_ESTRADE_9X3",
+        "x": 297.85,
+        "y": -1.15
+      },
+      "joint_1": {
+        "collideConnected": false,
+        "index1": 0,
+        "index2": 3,
+        "type": 1,
+        "x1": 0,
+        "x2": 0,
+        "y1": 0,
+        "y2": 0
+      },
+      "joint_2": {
+        "collideConnected": false,
+        "index1": 6,
+        "index2": 9,
+        "type": 1,
+        "x1": 0,
+        "x2": 0,
+        "y1": 0,
+        "y2": 0
+      }
+    }
+  }

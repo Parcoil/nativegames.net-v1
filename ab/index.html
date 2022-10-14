@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Angry Birds - Games | 𝙐𝙣𝙙𝙚𝙛𝙞𝙣𝙚𝙙 𝙂𝙖𝙢𝙚𝙨</title>
+<meta name="Title" content="Angry Birds Chrome">
+<meta name="description" content="Play Angry Birds online in HD with Google Chrome">
+<meta name="keywords" content="angry birds, free angry birds, online game, play online, angry birds app, chrome, google chrome, web browser, HD, arcade game, online, play angry birds online, web, application, game, iphone, android, ipad, slingshot, catapult, explosions, golden egg, levels, pigs, birds, stars, high scores, chrome os, chrome web store, angry birds rovio, play angry birds on computer, apps for chrome, play angry birds free">
+<link href="https://fonts.googleapis.com/css?family=Terminal+Dosis:800" rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/angry_birds_chrome.css" type="text/css">
+<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/aknpkdffaafgjchaibgeefbgmgeghloj">
+<script type="text/javascript" src="fowl/fowl.nocache.js"></script>
+<script type="text/javascript">
+      google.load('payments', '1.0', {
+          'packages': [
+          
+            'production_config'
+          
+          ]
+      });
+    </script>
+<script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_trackPageview']);
+    </script>
+<script>
+        function externalLink(type) {
+            _gaq.push(['_trackEvent', 'Promo', 'Promotional Link: ' + type]);
+        }
+    </script>
+</head>
+<body>
+<script type="text/javascript">
+
+        function haveAudioSupport() {
+          
+            try {
+              if (new AudioContext()) {
+                return true;
+              }
+            } catch (ignore) { }
+
+            try {
+              if (new webkitAudioContext()) {
+                return true;
+              }
+            } catch (ignore) { }
+          
+        }
+      </script>
+<table class="content-table">
+<tr>
+<td>
+<div class="gamecont" id="content">
+<div id='loginInfo'></div>
+<div id='gameDiv' style="display: inline-block;">
+<div id='playn-root'>
+<div id="loading">
+<img src="images/loading_image_bird.png" />
+</div>
+</div>
+<div id="rovionews"></div>
+<div id="videochapter"></div>
+<div id="ingameframecontainer"></div>
+<div id="cornerframecontainer1"></div>
+</div>
+<div class='buttons'>
+<div class='buttoncontainer'>
+<div id='version-buttons'></div>
+</div>
+<div id='tooltip'></div>
+<script type="text/javascript">
+                tooltip = document.getElementById('tooltip');
+                resetTooltip = function() { tooltip.innerHTML = ""; }
+             </script>
+</div>
+</div>
+</td>
+</td>
+</tr>
+</table>
+<noscript>
+      <div class="info-noscript">
+        Your web browser must have JavaScript enabled
+        in order for this application to display correctly.
+      </div>
+    </noscript>
+<script type="text/javascript">
+      if (window.self != window.top && window.top.location.host.match("^[a-zA-Z]*\.angrybirds\.com") == null) {
+        setInterval(function() {
+                         var content = document.getElementById('content');
+                         content.parentNode.style.display = 'none';
+                         var playn = document.getElementById('playn-root');
+                         if (playn != null) playn.parentNode.removeChild(playn);
+                    }, 500);
+      }
+    </script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"72ff80d68c782a9c","version":"2022.6.0","r":1,"token":"1646abcce58241b1aef359d9d36b339d","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>

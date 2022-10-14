@@ -1,0 +1,152 @@
+{
+	"name": "FONT_AB_SMALL",
+	"leading": 20,
+	"spacing": 1,
+	"charCount": 18,
+	"chars": {
+		"char_0": {
+			"code": 32,
+			"x": 121,
+			"y": 2,
+			"width": 4,
+			"height": 14,
+			"baseline": 10
+		},
+		"char_1": {
+			"code": 47,
+			"x": 108,
+			"y": 21,
+			"width": 7,
+			"height": 17,
+			"baseline": 12
+		},
+		"char_2": {
+			"code": 48,
+			"x": 51,
+			"y": 23,
+			"width": 10,
+			"height": 18,
+			"baseline": 12
+		},
+		"char_3": {
+			"code": 49,
+			"x": 63,
+			"y": 23,
+			"width": 8,
+			"height": 17,
+			"baseline": 12
+		},
+		"char_4": {
+			"code": 50,
+			"x": 110,
+			"y": 2,
+			"width": 9,
+			"height": 17,
+			"baseline": 12
+		},
+		"char_5": {
+			"code": 51,
+			"x": 73,
+			"y": 21,
+			"width": 10,
+			"height": 17,
+			"baseline": 12
+		},
+		"char_6": {
+			"code": 52,
+			"x": 73,
+			"y": 2,
+			"width": 11,
+			"height": 17,
+			"baseline": 12
+		},
+		"char_7": {
+			"code": 53,
+			"x": 117,
+			"y": 21,
+			"width": 9,
+			"height": 16,
+			"baseline": 12
+		},
+		"char_8": {
+			"code": 54,
+			"x": 86,
+			"y": 21,
+			"width": 9,
+			"height": 17,
+			"baseline": 12
+		},
+		"char_9": {
+			"code": 55,
+			"x": 97,
+			"y": 21,
+			"width": 9,
+			"height": 17,
+			"baseline": 12
+		},
+		"char_10": {
+			"code": 56,
+			"x": 86,
+			"y": 2,
+			"width": 10,
+			"height": 17,
+			"baseline": 12
+		},
+		"char_11": {
+			"code": 57,
+			"x": 98,
+			"y": 2,
+			"width": 10,
+			"height": 17,
+			"baseline": 12
+		},
+		"char_12": {
+			"code": 58,
+			"x": 73,
+			"y": 40,
+			"width": 5,
+			"height": 13,
+			"baseline": 8
+		},
+		"char_13": {
+			"code": 124,
+			"x": 27,
+			"y": 25,
+			"width": 19,
+			"height": 20,
+			"baseline": 15
+		},
+		"char_14": {
+			"code": 163,
+			"x": 51,
+			"y": 2,
+			"width": 20,
+			"height": 19,
+			"baseline": 15
+		},
+		"char_15": {
+			"code": 176,
+			"x": 2,
+			"y": 2,
+			"width": 23,
+			"height": 24,
+			"baseline": 17
+		},
+		"char_16": {
+			"code": 189,
+			"x": 27,
+			"y": 2,
+			"width": 22,
+			"height": 21,
+			"baseline": 15
+		},
+		"char_17": {
+			"code": 223,
+			"x": 2,
+			"y": 28,
+			"width": 21,
+			"height": 23,
+			"baseline": 16
+		}
+	}
+}
