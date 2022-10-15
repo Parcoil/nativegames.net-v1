@@ -1,0 +1,59 @@
+<html>
+
+  <title>Slope - Games | 𝙐𝙣𝙙𝙚𝙛𝙞𝙣𝙚𝙙 𝙂𝙖𝙢𝙚𝙨</title>
+
+<!-- Google -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1477355143669983"
+          crossorigin="anonymous"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RN2RSBQT28"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RN2RSBQT28');
+</script>
+	
+
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="UnityProgress.js"></script>
+    <script src="UnityLoader.js"></script>
+    <!-- -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- -->
+    <script>
+      var unityInstance = window.unityInstance = UnityLoader.instantiate("gameContainer", "slope_new.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(window.unityInstance, "complete")}}});
+    </script>
+  </head>
+  <body>
+  <div aria-live="polite" aria-atomic="true" class="position-fixed d-flex justify-content-center align-items-center w-100" style="z-index: 1; margin-top: 1rem;">
+  <div class="alert alert-primary d-flex align-items-center alert-dismissible fade show" aria-live="assertive" aria-atomic="true" role="alert">
+  <i style="font-size: 24px; margin-right: 1rem;" class="bi bi-info-circle-fill"></i>
+  <div>
+    New Feature! Press "q" to quit slope and open BLEND! Just press q when a teacher comes by.
+    <br>
+    
+    If you need to login and there is a q in your password/username, push "alt+q" to disable auto-hiding:, login, and then push alt+q again to re-enable auto-hide.
+  </div>
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+  </div>
+    <div class="webgl-content">
+        <div id="gameContainer" style="width: 100%; height: 100%; margin: auto;"></div>
+            <div style="position: absolute; bottom: 1vh; left: 1vw;" class="fullscreen" onclick="window.unityInstance.SetFullscreen(1)">
+              <div class="btn-group" role="group" aria-label="Third group">
+                <button type="button" class="btn btn-info"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-fullscreen" viewBox="0 0 16 16">
+              <path d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1h-4zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5zM.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5z"/>
+            </svg></button>
+              </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+
+
+  </body>
+</html>

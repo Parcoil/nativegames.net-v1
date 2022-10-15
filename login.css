@@ -10,11 +10,6 @@
 .u-section-1 .u-text-1 {
   text-shadow: 2px 2px 8px rgba(66,84,101,0.4);
   width: 861px;
-  letter-spacing: 2px;
-  text-transform: none;
-  font-family: Poppins;
-  font-weight: 700;
-  font-size: 2.25rem;
   margin: 211px auto 0;
 }
 
@@ -34,11 +29,6 @@
 }
 
 .u-section-1 .u-btn-1 {
-  border-style: none none solid;
-  padding: 0;
-}
-
-.u-section-1 .u-btn-2 {
   background-image: none;
   letter-spacing: 3px;
   border-style: solid;
@@ -86,7 +76,6 @@
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 1.875rem;
     margin-top: 90px;
   }
 
@@ -102,7 +91,7 @@
     margin-right: 0;
   }
 
-  .u-section-1 .u-btn-2 {
+  .u-section-1 .u-btn-1 {
     margin-top: 35px;
   }
 }
@@ -113,7 +102,6 @@
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 1.5rem;
     width: 272px;
     margin-top: 60px;
     margin-left: auto;
