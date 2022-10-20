@@ -38119,7 +38119,7 @@ a.u-link.u-text-hover-grey-90:hover {
 /*end-variables sitestylecss*/
  .u-header {
   background-image: none;
-  min-height: 526px;
+  min-height: 208px;
 }
 
 .u-header .u-custom-html-1 {
@@ -38162,7 +38162,7 @@ a.u-link.u-text-hover-grey-90:hover {
   height: auto;
   min-height: 65px;
   margin-top: 39px;
-  margin-bottom: 60px;
+  margin-bottom: 0;
 }
 @media (max-width: 1199px) {
   .u-header .u-custom-html-1 {
