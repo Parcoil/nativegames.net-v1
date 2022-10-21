@@ -590,15 +590,14 @@
   .u-section-5 .u-gallery-inner-1 {
     grid-template-columns: repeat(1, auto);
   }
-}.u-section-6 .u-sheet-1 {
-  min-height: 1494px;
-  margin-bottom: 0;
+} .u-section-6 {
+  min-height: 2414px;
 }
 
 .u-section-6 .u-gallery-1 {
   height: 1497px;
-  margin-top: 0;
-  margin-bottom: 0;
+  width: 1140px;
+  margin: 0 auto;
 }
 
 .u-section-6 .u-gallery-inner-1 {
@@ -1418,23 +1417,52 @@
   padding: 20px;
 }
 
+.u-section-6 .u-custom-html-1 {
+  height: auto;
+  min-height: 761px;
+  margin-top: -1497px;
+  margin-bottom: 0;
+  margin-left: 0;
+  width: 124px;
+}
+
+.u-section-6 .u-custom-html-2 {
+  height: auto;
+  min-height: 761px;
+  margin-left: 0;
+  width: 124px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-section-6 .u-custom-html-3 {
+  height: auto;
+  min-height: 761px;
+  margin-left: calc(((100% - 1140px) / 2) + 1140px);
+  width: 124px;
+  margin-top: -1434px;
+  margin-bottom: 0;
+}
+
 .u-section-6 .u-text-1 {
   font-weight: 700;
-  margin: 47px auto 0;
+  margin: 695px auto 0 calc(((100% - 1140px) / 2) + 386px);
 }
 
 .u-section-6 .u-text-2 {
   font-weight: 700;
-  margin: 21px auto 60px;
+  margin: 21px auto 60px calc(((100% - 1140px) / 2) + 222px);
 }
 
 @media (max-width: 1199px) {
-  .u-section-6 .u-sheet-1 {
-    min-height: 1231px;
+   .u-section-6 {
+    min-height: 2151px;
   }
 
   .u-section-6 .u-gallery-1 {
     height: 1234px;
+    width: 940px;
+    margin-left: calc(((100% - 1140px) / 2) + 100px);
   }
 
   .u-section-6 .u-gallery-inner-1 {
@@ -1620,46 +1648,113 @@
   .u-section-6 .u-back-image-45 {
     height: auto;
   }
+
+  .u-section-6 .u-custom-html-1 {
+    margin-top: -855px;
+    margin-right: calc(((100% - 1140px) / 2) + 1124px);
+    margin-left: calc(((100% - 1140px) / 2) + -24px);
+  }
+
+  .u-section-6 .u-custom-html-3 {
+    margin-left: calc(((100% - 940px) / 2) + 816px);
+  }
 }
 
 @media (max-width: 991px) {
-  .u-section-6 .u-sheet-1 {
-    min-height: 3778px;
+   .u-section-6 {
+    min-height: 4461px;
   }
 
   .u-section-6 .u-gallery-1 {
     height: 3544px;
+    width: 720px;
+    margin-left: calc(((100% - 1140px) / 2) + 210px);
   }
 
   .u-section-6 .u-gallery-inner-1 {
     grid-template-columns: repeat(3, auto);
   }
+
+  .u-section-6 .u-custom-html-1 {
+    margin-right: calc(((100% - 1140px) / 2) + 1054px);
+    margin-left: calc(((100% - 1140px) / 2) + 86px);
+  }
+
+  .u-section-6 .u-custom-html-3 {
+    margin-left: calc(((100% - 720px) / 2) + 596px);
+  }
 }
 
 @media (max-width: 767px) {
-  .u-section-6 .u-sheet-1 {
-    min-height: 6112px;
+   .u-section-6 {
+    min-height: 7030px;
   }
 
   .u-section-6 .u-gallery-1 {
     height: 6113px;
+    width: 540px;
+    margin-left: calc(((100% - 1140px) / 2) + 300px);
   }
 
   .u-section-6 .u-gallery-inner-1 {
     grid-template-columns: repeat(2, auto);
   }
+
+  .u-section-6 .u-custom-html-1 {
+    margin-top: -803px;
+    margin-right: calc(((100% - 1140px) / 2) + 964px);
+    margin-left: calc(((100% - 1140px) / 2) + 176px);
+  }
+
+  .u-section-6 .u-custom-html-2 {
+    margin-top: -699px;
+  }
+
+  .u-section-6 .u-custom-html-3 {
+    margin-left: calc(((100% - 540px) / 2) + 416px);
+    margin-top: -915px;
+  }
+
+  .u-section-6 .u-text-1 {
+    margin-top: 181px;
+  }
+
+  .u-section-6 .u-text-2 {
+    margin-left: calc(((100% - 1140px) / 2) + 300px);
+  }
 }
 
 @media (max-width: 575px) {
-  .u-section-6 .u-sheet-1 {
-    min-height: 15398px;
+   .u-section-6 {
+    min-height: 15978px;
   }
 
   .u-section-6 .u-gallery-1 {
     height: 15061px;
+    width: 340px;
+    margin-left: calc(((100% - 1140px) / 2) + 400px);
   }
 
   .u-section-6 .u-gallery-inner-1 {
     grid-template-columns: repeat(1, auto);
+  }
+
+  .u-section-6 .u-custom-html-1 {
+    margin-top: -849px;
+    margin-right: calc(((100% - 1140px) / 2) + 864px);
+    margin-left: calc(((100% - 1140px) / 2) + 276px);
+  }
+
+  .u-section-6 .u-custom-html-3 {
+    margin-left: calc(((100% - 340px) / 2) + 216px);
+  }
+
+  .u-section-6 .u-text-1 {
+    margin-top: 227px;
+    margin-left: calc(((100% - 1140px) / 2) + 423px);
+  }
+
+  .u-section-6 .u-text-2 {
+    margin-left: calc(((100% - 1140px) / 2) + 400px);
   }
 }
