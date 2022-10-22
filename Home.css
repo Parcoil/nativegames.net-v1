@@ -591,11 +591,11 @@
     grid-template-columns: repeat(1, auto);
   }
 } .u-section-6 {
-  min-height: 1681px;
+  min-height: 1867px;
 }
 
 .u-section-6 .u-gallery-1 {
-  height: 1478px;
+  height: 1664px;
   width: 1140px;
   margin: 0 auto;
 }
@@ -1475,6 +1475,82 @@
   padding: 20px;
 }
 
+.u-section-6 .u-gallery-item-49 {
+  --effect-scale: 1.25;
+}
+
+.u-section-6 .u-back-slide-49 {
+  transition-duration: 0.25s;
+}
+
+.u-section-6 .u-back-image-49 {
+  height: calc(100% + 7px);
+  bottom: -7px;
+  object-position: 100% 50%;
+}
+
+.u-section-6 .u-over-slide-49 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-6 .u-gallery-item-50 {
+  --effect-scale: 1.25;
+}
+
+.u-section-6 .u-back-slide-50 {
+  transition-duration: 0.25s;
+}
+
+.u-section-6 .u-back-image-50 {
+  height: calc(100% + 7px);
+  bottom: -7px;
+  object-position: 100% 50%;
+}
+
+.u-section-6 .u-over-slide-50 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-6 .u-gallery-item-51 {
+  --effect-scale: 1.25;
+}
+
+.u-section-6 .u-back-slide-51 {
+  transition-duration: 0.25s;
+}
+
+.u-section-6 .u-back-image-51 {
+  height: calc(100% + 7px);
+  bottom: -7px;
+  object-position: 100% 50%;
+}
+
+.u-section-6 .u-over-slide-51 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-6 .u-gallery-item-52 {
+  --effect-scale: 1.25;
+}
+
+.u-section-6 .u-back-slide-52 {
+  transition-duration: 0.25s;
+}
+
+.u-section-6 .u-back-image-52 {
+  height: calc(100% + 7px);
+  bottom: -7px;
+  object-position: 100% 50%;
+}
+
+.u-section-6 .u-over-slide-52 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
 .u-section-6 .u-custom-html-1 {
   height: auto;
   min-height: 761px;
@@ -1520,7 +1596,7 @@
   .u-section-6 .u-gallery-1 {
     width: 940px;
     margin-left: calc(((100% - 1140px) / 2) + 100px);
-    height: 1219px;
+    height: 1372px;
   }
 
   .u-section-6 .u-gallery-inner-1 {
@@ -1719,8 +1795,24 @@
     height: auto;
   }
 
+  .u-section-6 .u-back-image-49 {
+    height: auto;
+  }
+
+  .u-section-6 .u-back-image-50 {
+    height: auto;
+  }
+
+  .u-section-6 .u-back-image-51 {
+    height: auto;
+  }
+
+  .u-section-6 .u-back-image-52 {
+    height: auto;
+  }
+
   .u-section-6 .u-custom-html-1 {
-    margin-top: -855px;
+    margin-top: -1205px;
     margin-right: calc(((100% - 1140px) / 2) + 1124px);
     margin-left: calc(((100% - 1140px) / 2) + -24px);
   }
@@ -1738,7 +1830,7 @@
   .u-section-6 .u-gallery-1 {
     width: 720px;
     margin-left: calc(((100% - 1140px) / 2) + 210px);
-    height: 3735px;
+    height: 4204px;
   }
 
   .u-section-6 .u-gallery-inner-1 {
@@ -1746,6 +1838,7 @@
   }
 
   .u-section-6 .u-custom-html-1 {
+    margin-top: -4037px;
     margin-right: calc(((100% - 1140px) / 2) + 1054px);
     margin-left: calc(((100% - 1140px) / 2) + 86px);
   }
@@ -1763,7 +1856,7 @@
   .u-section-6 .u-gallery-1 {
     width: 540px;
     margin-left: calc(((100% - 1140px) / 2) + 300px);
-    height: 6303px;
+    height: 6832px;
   }
 
   .u-section-6 .u-gallery-inner-1 {
@@ -1771,22 +1864,13 @@
   }
 
   .u-section-6 .u-custom-html-1 {
-    margin-top: -803px;
+    margin-top: -6927px;
     margin-right: calc(((100% - 1140px) / 2) + 964px);
     margin-left: calc(((100% - 1140px) / 2) + 176px);
   }
 
-  .u-section-6 .u-custom-html-2 {
-    margin-top: -699px;
-  }
-
   .u-section-6 .u-custom-html-3 {
     margin-left: calc(((100% - 540px) / 2) + 416px);
-    margin-top: -915px;
-  }
-
-  .u-section-6 .u-text-1 {
-    margin-top: 181px;
   }
 
   .u-section-6 .u-text-2 {
@@ -1802,7 +1886,7 @@
   .u-section-6 .u-gallery-1 {
     width: 340px;
     margin-left: calc(((100% - 1140px) / 2) + 400px);
-    height: 15874px;
+    height: 17207px;
   }
 
   .u-section-6 .u-gallery-inner-1 {
@@ -1810,7 +1894,7 @@
   }
 
   .u-section-6 .u-custom-html-1 {
-    margin-top: -849px;
+    margin-top: -17699px;
     margin-right: calc(((100% - 1140px) / 2) + 864px);
     margin-left: calc(((100% - 1140px) / 2) + 276px);
   }
@@ -1820,7 +1904,6 @@
   }
 
   .u-section-6 .u-text-1 {
-    margin-top: 227px;
     margin-left: calc(((100% - 1140px) / 2) + 423px);
   }
 
