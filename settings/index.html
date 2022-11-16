@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Settings</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="redirect.css" />
+    <link rel="stylesheet" href="tab.css" />
+    <link rel="stylesheet" href="switch.css" />
+    <link rel="icon" href="https://cdn.minoa.cf/Ghost.png" />
+  </head>
+  <body>
+    <div class="console-container">
+      <div class="console">
+        <div class="consolebody">
+          <p>Enter a new tab title or a image URL below. Whatever you set will be used all over the site.</p>
+          <p class="console-input">> <input id="userinput" type="url" pattern="https://.*" placeholder="Enter a title or image URL" autocomplete="on" autofocus /></p>
+          <p>Output: <span id="console-output"></span></p>
+        </div>
+      </div>
+      <div class="button-wrapper">
+        <button onclick="changeTabTitle();" class="console-button">Set Title</button>
+        <button onclick="changeTabIcon();" class="console-button">Set Icon</button>
+        <button onclick="resetTabSettings();" class="console-button">Uncloak</button>
+      </div>
+      <div class="examples">
+        <h4>Presets:</h4>
+        <p><b>Google: </b><button onclick="applyUrl('https://cdn.minoa.cf/settings/google.png', 'Google');">Apply</button></p>
+        <p><b>Google Classroom: </b><button onclick="applyUrl('https://cdn.minoa.cf/settings/class.png', 'Classes');">Apply</button></p>
+        <p><b>Google Docs: </b><button onclick="applyUrl('https://cdn.minoa.cf/settings/docs.ico', 'Class notes - Google Docs');">Apply</button></p>
+        <p><b>Google Drive: </b><button onclick="applyUrl('https://cdn.minoa.cf/settings/drive.png', 'My Drive - Google Drive');">Apply</button></p>
+        <p><b>Canvas: </b><button onclick="applyUrl('https://cdn.minoa.cf/settings/canvas.ico' , 'Dashboard');">Apply</button></p>
+        <p><b>OnTrack: </b><button onclick="applyUrl('https://cdn.minoa.cf/settings/ontrack.ico', 'HISD OnTrack Student | Illuminate Education');">Apply</button></p>
+        <p><b>Mathia: </b><button onclick="applyUrl('https://cdn.minoa.cf/settings/mathia.ico', 'Carnegie Learning: MATHia');">Apply</button></p>
+		<p><b>Clever: </b><button onclick="applyUrl('https://cdn.minoa.cf/settings/clever.ico', 'Clever | Portal');">Apply</button></p>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5756835229788588" crossorigin="anonymous"></script>
+      </div>
+	  <div class="blank">
+<iframe src="about.html" title="Cloacking"></iframe>
+	<div/>
+    <script src="/js/tab.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/switch.js"></script>
+  </body>
+</html>
