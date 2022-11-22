@@ -38820,7 +38820,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-image-1 {
   width: 49px;
   height: 64px;
-  margin: 16px auto 0 calc(((100% - 1140px) / 2) + -39px);
+  margin: 16px auto 0 calc(((100% - 1140px) / 2) + -24px);
 }
 
 .u-header .u-logo-image-1 {
@@ -38836,6 +38836,7 @@ a.u-link.u-text-hover-grey-90:hover {
   font-weight: 700;
   font-size: 1rem;
   text-transform: uppercase;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -38843,26 +38844,20 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: 20px auto 0;
 }
 
-.u-header .u-custom-html-2 {
-  height: auto;
-  min-height: 32px;
-  margin-top: 18px;
-  margin-bottom: 0;
-}
-
-.u-header .u-image-2 {
-  width: 195px;
-  height: 95px;
-  margin: -115px auto 0 calc(((100% - 1140px) / 2));
-}
-
 .u-header .u-icon-3 {
   width: 25px;
   height: 25px;
   transition-duration: 0.5s;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  margin: -62px calc(((100% - 1140px) / 2) + -44px) 60px auto;
+  margin: -31px calc(((100% - 1140px) / 2) + -44px) 0 auto;
   padding: 0;
+}
+
+.u-header .u-custom-html-2 {
+  height: auto;
+  min-height: 33px;
+  margin-top: 26px;
+  margin-bottom: 15px;
 }
 @media (max-width: 1199px) {
   .u-header .u-custom-html-1 {
@@ -38878,27 +38873,22 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-image-1 {
-    margin-left: calc(((100% - 940px) / 2) + -39px);
+    margin-left: calc(((100% - 940px) / 2) + -24px);
   }
 
   .u-header .u-menu-1 {
     margin-right: calc(((100% - 940px) / 2) + -17px);
   }
 
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
-  }
-
-  .u-header .u-image-2 {
-    margin-top: -115px;
-    margin-left: calc(((100% - 940px) / 2));
-  }
-
   .u-header .u-icon-3 {
     width: 25px;
     height: 25px;
-    margin-top: -62px;
+    margin-top: -32px;
     margin-right: calc(((100% - 940px) / 2) + -44px);
+  }
+
+  .u-header .u-custom-html-2 {
+    margin-top: 28px;
   }
 }
 @media (max-width: 991px) {
@@ -38911,69 +38901,83 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-image-1 {
-    margin-left: calc(((100% - 720px) / 2) + -39px);
+    margin-left: calc(((100% - 720px) / 2) + -24px);
   }
 
   .u-header .u-menu-1 {
     margin-right: calc(((100% - 720px) / 2) + -17px);
   }
 
-  .u-header .u-image-2 {
-    margin-left: calc(((100% - 720px) / 2));
+  .u-header .u-icon-3 {
+    width: calc(((100% - 720px) / 2) + -25px);
+    margin-top: -32px;
+    margin-right: 0;
   }
 
-  .u-header .u-icon-3 {
-    margin-right: calc(((100% - 720px) / 2) + -44px);
+  .u-header .u-custom-html-2 {
+    margin-top: 28px;
+    margin-bottom: 23px;
   }
 }
 @media (max-width: 767px) {
   .u-header .u-btn-1 {
-    margin-right: calc(((100% - 540px) / 2) + -107px);
+    margin-top: -52px;
+    margin-right: calc(((100% - 540px) / 2) + -29px);
   }
 
   .u-header .u-btn-2 {
-    margin-right: calc(((100% - 540px) / 2) + 58px);
+    margin-top: -19px;
+    margin-right: auto;
+    margin-left: calc(((100% - 540px) / 2) + -28px);
   }
 
   .u-header .u-image-1 {
-    margin-left: calc(((100% - 540px) / 2) + -39px);
+    margin-top: 20px;
+    margin-left: calc(((100% - 540px) / 2) + -24px);
   }
 
   .u-header .u-menu-1 {
     margin-right: calc(((100% - 540px) / 2) + -17px);
   }
 
-  .u-header .u-image-2 {
-    margin-left: calc(((100% - 540px) / 2));
+  .u-header .u-icon-3 {
+    width: calc(((100% - 540px) / 2) + -25px);
+    margin-top: -32px;
+    margin-right: calc(((100% - 540px) / 2) + -42px);
   }
 
-  .u-header .u-icon-3 {
-    margin-right: calc(((100% - 540px) / 2) + -44px);
+  .u-header .u-custom-html-2 {
+    margin-bottom: 24px;
   }
 }
 @media (max-width: 575px) {
+   .u-header {
+    min-height: 181px;
+  }
+
   .u-header .u-btn-1 {
-    margin-right: calc(((100% - 340px) / 2) + -107px);
+    margin-top: 32px;
+    margin-right: auto;
   }
 
   .u-header .u-btn-2 {
-    margin-right: calc(((100% - 340px) / 2) + 58px);
+    margin-top: -51px;
+    margin-left: auto;
   }
 
   .u-header .u-image-1 {
-    margin-left: calc(((100% - 340px) / 2) + -39px);
+    margin-top: -33px;
+    margin-left: calc(((100% - 340px) / 2) + -24px);
   }
 
   .u-header .u-menu-1 {
     margin-right: calc(((100% - 340px) / 2) + -17px);
   }
 
-  .u-header .u-image-2 {
-    margin-left: calc(((100% - 340px) / 2));
-  }
-
   .u-header .u-icon-3 {
-    margin-right: calc(((100% - 340px) / 2) + -44px);
+    width: calc(((100% - 340px) / 2) + -25px);
+    margin-top: -32px;
+    margin-right: calc(((100% - 340px) / 2) + -42px);
   }
 }
 .u-header .u-icon-3, .u-header .u-icon-3:before, .u-header .u-icon-3 > .u-container-layout:before {
