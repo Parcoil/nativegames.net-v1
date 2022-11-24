@@ -1986,6 +1986,11 @@
 .u-section-8 .u-text-2 {
   font-weight: 700;
   margin: 30px auto 60px;
+}
+
+.u-section-8 .u-btn-1 {
+  background-image: none;
+  padding: 0;
 }.u-section-9 .u-sheet-1 {
   min-height: 50px;
 }
