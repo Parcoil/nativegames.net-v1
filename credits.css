@@ -1,0 +1,103 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 52px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  margin: 0 auto;
+}.u-section-2 .u-sheet-1 {
+  min-height: 400px;
+}
+
+.u-section-2 .u-group-elements-1 {
+  width: 124px;
+  min-height: 120px;
+  height: auto;
+  margin: 101px auto 0 101px;
+}
+
+.u-section-2 .u-text-1 {
+  font-weight: 700;
+  margin: 0 auto 0 32px;
+}
+
+.u-section-2 .u-btn-1 {
+  background-image: linear-gradient(to right, #478ac9, #2cccc4);
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.9375rem;
+  letter-spacing: 1px;
+  box-shadow: 0px 2px 6px 0 rgba(0,0,0,0.25);
+  margin: 43px auto 0 0;
+  padding: 8px 36px 9px 35px;
+}
+
+.u-section-2 .u-group-elements-2 {
+  width: 124px;
+  min-height: 120px;
+  height: auto;
+  margin: -120px auto 0;
+}
+
+.u-section-2 .u-text-2 {
+  font-weight: 700;
+  margin: 0 auto 0 32px;
+}
+
+.u-section-2 .u-btn-2 {
+  background-image: linear-gradient(to right, #478ac9, #2cccc4);
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.9375rem;
+  letter-spacing: 1px;
+  box-shadow: 0px 2px 6px 0 rgba(0,0,0,0.25);
+  margin: 43px auto 0 0;
+  padding: 8px 36px 9px 35px;
+}
+
+.u-section-2 .u-group-elements-3 {
+  width: 124px;
+  min-height: 120px;
+  height: auto;
+  margin: -120px 101px 60px auto;
+}
+
+.u-section-2 .u-text-3 {
+  font-weight: 700;
+  margin: 0 auto 0 18px;
+}
+
+.u-section-2 .u-btn-3 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.9375rem;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: 43px auto 0 0;
+  padding: 8px 36px 9px 35px;
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-group-elements-2 {
+    margin-top: 20px;
+    margin-bottom: initial;
+  }
+
+  .u-section-2 .u-group-elements-3 {
+    margin-top: 20px;
+    margin-bottom: initial;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-group-elements-2 {
+    margin-bottom: 0;
+  }
+
+  .u-section-2 .u-group-elements-3 {
+    margin-bottom: 60px;
+  }
+}

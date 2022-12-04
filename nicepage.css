@@ -38825,35 +38825,10 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: 21px auto 0;
 }
 
-.u-header .u-btn-1 {
-  background-image: none;
-  border-style: none;
-  width: 153px;
-  margin: -42px calc(((100% - 1140px) / 2) + -107px) 0 auto;
-  padding: 0;
-}
-
-.u-header .u-icon-1 {
-  margin-right: 2px;
-}
-
-.u-header .u-btn-2 {
-  background-image: none;
-  border-style: none;
-  width: 127px;
-  margin: -26px calc(((100% - 1140px) / 2) + 58px) 0 auto;
-  padding: 0;
-}
-
-.u-header .u-icon-2 {
-  color: rgb(70, 138, 201) !important;
-  margin-right: 2px;
-}
-
 .u-header .u-image-1 {
   width: 49px;
   height: 64px;
-  margin: 16px auto 0 calc(((100% - 1140px) / 2) + -24px);
+  margin: 0 auto 0 calc(((100% - 1140px) / 2) + -24px);
 }
 
 .u-header .u-logo-image-1 {
@@ -38877,7 +38852,7 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: 20px auto 0;
 }
 
-.u-header .u-icon-3 {
+.u-header .u-icon-1 {
   width: 25px;
   height: 25px;
   transition-duration: 0.5s;
@@ -38912,14 +38887,6 @@ a.u-link.u-text-hover-grey-90:hover {
     transition-duration: 0.5s;
   }
 
-  .u-header .u-btn-1 {
-    margin-right: calc(((100% - 940px) / 2) + -107px);
-  }
-
-  .u-header .u-btn-2 {
-    margin-right: calc(((100% - 940px) / 2) + 58px);
-  }
-
   .u-header .u-image-1 {
     margin-left: calc(((100% - 940px) / 2) + -24px);
   }
@@ -38928,7 +38895,7 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-right: calc(((100% - 940px) / 2) + -17px);
   }
 
-  .u-header .u-icon-3 {
+  .u-header .u-icon-1 {
     width: 25px;
     height: 25px;
     margin-top: -31px;
@@ -38943,21 +38910,12 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-custom-html-2 {
-    margin-top: -106px;
     margin-left: calc(((100% - 940px) / 2) + -99px);
-  }
-
-  .u-header .u-custom-html-3 {
-    margin-top: 82px;
   }
 }
 @media (max-width: 991px) {
-  .u-header .u-btn-1 {
-    margin-right: calc(((100% - 720px) / 2) + -107px);
-  }
-
-  .u-header .u-btn-2 {
-    margin-right: calc(((100% - 720px) / 2) + 58px);
+   .u-header {
+    min-height: 118px;
   }
 
   .u-header .u-image-1 {
@@ -38968,7 +38926,7 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-right: calc(((100% - 720px) / 2) + -17px);
   }
 
-  .u-header .u-icon-3 {
+  .u-header .u-icon-1 {
     margin-right: calc(((100% - 720px) / 2) + -44px);
   }
 
@@ -38981,12 +38939,8 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 767px) {
-  .u-header .u-btn-1 {
-    margin-right: calc(((100% - 540px) / 2) + -107px);
-  }
-
-  .u-header .u-btn-2 {
-    margin-right: calc(((100% - 540px) / 2) + 58px);
+   .u-header {
+    min-height: 469px;
   }
 
   .u-header .u-image-1 {
@@ -38997,7 +38951,7 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-right: calc(((100% - 540px) / 2) + -17px);
   }
 
-  .u-header .u-icon-3 {
+  .u-header .u-icon-1 {
     margin-right: calc(((100% - 540px) / 2) + -44px);
   }
 
@@ -39010,12 +38964,8 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 575px) {
-  .u-header .u-btn-1 {
-    margin-right: calc(((100% - 340px) / 2) + -107px);
-  }
-
-  .u-header .u-btn-2 {
-    margin-right: calc(((100% - 340px) / 2) + 58px);
+   .u-header {
+    min-height: 86px;
   }
 
   .u-header .u-image-1 {
@@ -39026,7 +38976,7 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-right: calc(((100% - 340px) / 2) + -17px);
   }
 
-  .u-header .u-icon-3 {
+  .u-header .u-icon-1 {
     margin-right: calc(((100% - 340px) / 2) + -44px);
   }
 
@@ -39038,14 +38988,14 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-left: calc(((100% - 340px) / 2) + -99px);
   }
 }
-.u-header .u-icon-3, .u-header .u-icon-3:before, .u-header .u-icon-3 > .u-container-layout:before {
+.u-header .u-icon-1, .u-header .u-icon-1:before, .u-header .u-icon-1 > .u-container-layout:before {
     transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
 }
-.u-header .u-container-layout:hover .u-icon-3 {
+.u-header .u-container-layout:hover .u-icon-1 {
     opacity: 1 !important;
     transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
 }
-.u-container-layout.hover .u-header .u-icon-3 {
+.u-container-layout.hover .u-header .u-icon-1 {
     opacity: 1 !important;
     transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
 } 
