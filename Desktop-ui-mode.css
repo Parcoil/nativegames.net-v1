@@ -1,5 +1,5 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 2385px;
+  min-height: 2424px;
 }
 
 .u-section-1 .u-btn-1 {
@@ -1121,9 +1121,9 @@
 }
 
 .u-section-1 .u-gallery-2 {
-  height: 183px;
-  margin-top: 8px;
-  margin-bottom: 60px;
+  height: 376px;
+  margin-top: 7px;
+  margin-bottom: 20px;
 }
 
 .u-section-1 .u-gallery-inner-2 {
@@ -1161,9 +1161,24 @@
   padding: 20px;
 }
 
+.u-section-1 .u-over-slide-67 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-1 .u-over-slide-68 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-1 .u-over-slide-69 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 2028px;
+    min-height: 2033px;
   }
 
   .u-section-1 .u-btn-1 {
@@ -1419,7 +1434,7 @@
   }
 
   .u-section-1 .u-gallery-2 {
-    height: 151px;
+    height: 310px;
   }
 
   .u-section-1 .u-gallery-inner-2 {
@@ -1429,7 +1444,7 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 5487px;
+    min-height: 5582px;
   }
 
   .u-section-1 .u-gallery-1 {
@@ -1441,7 +1456,7 @@
   }
 
   .u-section-1 .u-gallery-2 {
-    height: 463px;
+    height: 712px;
   }
 
   .u-section-1 .u-gallery-inner-2 {
@@ -1451,7 +1466,7 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 9017px;
+    min-height: 9417px;
   }
 
   .u-section-1 .u-gallery-1 {
@@ -1463,7 +1478,7 @@
   }
 
   .u-section-1 .u-gallery-2 {
-    height: 781px;
+    height: 1335px;
   }
 
   .u-section-1 .u-gallery-inner-2 {
@@ -1473,12 +1488,12 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 22175px;
+    min-height: 23080px;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 3rem;
-    margin-top: -51px;
+    margin-top: -68px;
   }
 
   .u-section-1 .u-gallery-1 {
@@ -1490,7 +1505,7 @@
   }
 
   .u-section-1 .u-gallery-2 {
-    height: 1967px;
+    height: 3026px;
   }
 
   .u-section-1 .u-gallery-inner-2 {
