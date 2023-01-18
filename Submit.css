@@ -3,7 +3,7 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 782px;
+  min-height: 777px;
 }
 
 .u-section-1 .u-text-1 {
@@ -22,8 +22,16 @@
   margin: 45px auto 60px;
 }
 
+.u-section-1 .u-input-1 {
+  box-shadow: 5px 5px 0px 0 rgba(0,0,0,0.4);
+}
+
 .u-section-1 .u-form-group-2 {
   margin-left: 0;
+}
+
+.u-section-1 .u-input-2 {
+  box-shadow: 5px 5px 0px 0 rgba(0,0,0,0.4);
 }
 
 .u-section-1 .u-form-group-3 {
@@ -44,6 +52,7 @@
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 2px;
+  box-shadow: 0px 2px 8px 0px rgba(128,128,128,1);
   padding: 9px 0 11px;
 }
 
