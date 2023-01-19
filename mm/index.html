@@ -343,29 +343,25 @@
         EngineLoader.load("canvas", "MonkeyMart");
     </script>
     <script type="text/javascript">
-        function poki_showBanner(vBanner) {
-        }
+        function poki_showBanner(vBanner) {}
 
-        function poki_showBigBanner(vBanner) {
-        }
+        function poki_showBigBanner(vBanner) {}
 
-        function poki_hideBanner(vBanner) {
-        }
+        function poki_hideBanner(vBanner) {}
 
         function poki_check() {
-          
+
         }
     </script>
     <script id="poki-sdk-setup" type="text/javascript">
-   
         var data = {};
         var isLoadFinished = false;
         Progress.addListener(function(percentage) {
             data.percentageDone = percentage / 100;
             if (!isLoadFinished)
-            if (percentage == 100 && !isLoadFinished) {
-                isLoadFinished = true;
-            }
+                if (percentage == 100 && !isLoadFinished) {
+                    isLoadFinished = true;
+                }
         });
         Module['onRuntimeInitialized'] = function() {
             Module.runApp("canvas", extra_params);
