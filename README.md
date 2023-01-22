@@ -18,7 +18,7 @@ Nativegames is an Open Source Arcade Gaming Website
 
 
 
-www.nativegames.net
+nativegames.net
 
 
 
