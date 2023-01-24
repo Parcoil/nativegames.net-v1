@@ -1,0 +1,19 @@
+{
+  "name": "Breakoid",
+  "description": "Break all the blocks - but it never stops! How long can you keep on going? Try to beat the highscore!",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./",
+  "scope": ".",
+  "display": "standalone"
+}
