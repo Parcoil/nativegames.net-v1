@@ -1,0 +1,130 @@
+#map-loading {
+    background: rgb(44 44 44);
+    z-index: 1005;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#map-loading .left-side {
+    position: absolute;
+    z-index: 1;
+}
+
+#map-loading h5 {
+    position: absolute;
+    font-size: 4vw;
+    color: #fff;
+    bottom: 6vh;
+    z-index: 10;
+    text-transform: uppercase;
+    margin: 0px;
+    letter-spacing: 0vw;
+    animation: text-animation 1.5s ease-out;
+    animation-fill-mode: forwards;
+    text-shadow: 0px 0px 3vw #000;
+}
+
+@keyframes text-animation {
+    0% {
+        opacity: 0;
+        right: 0vw;
+    }
+    100% {
+        opacity: 1;
+        right: 3vw;
+    }
+}
+
+#map-loading .left-side .black {
+    width: 58vw;
+    height: 140vh;
+    background: rgb(13, 13, 13);
+    background: linear-gradient(163deg, rgba(13, 13, 13, 1) 0%, rgba(64, 64, 64, 1) 100%);
+    position: absolute;
+    left: -10vw;
+    top: -19vh;
+    transform: rotate(0deg);
+    z-index: 1;
+    animation: black-animation 5s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes black-animation {
+    0% {
+        transform: rotate(5deg);
+    }
+    100% {
+        left: -12vw;
+        transform: rotate(8deg);
+    }
+}
+
+#map-loading .left-side .white {
+    width: 58vw;
+    height: 140vh;
+    background: #ffffff59;
+    position: absolute;
+    left: -8vw;
+    top: -15vh;
+    transform: rotate(0deg);
+    animation: white-animation 5s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes white-animation {
+    0% {
+        transform: rotate(8deg);
+    }
+    100% {
+        left: -10vw;
+        transform: rotate(11deg);
+    }
+}
+
+#map-loading .right-side {
+    width: 60vw;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translate(0%, -50%);
+    animation: slow-zoom-in 5s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slow-zoom-in {
+    0% {
+        transform: translate(0%, -50%) scale(1.3);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0%, -50%) scale(1.0);
+        opacity: 1;
+    }
+}
+
+#map-loading .map-info {
+    position: fixed;
+    left: 3vw;
+    bottom: 3vw;
+    z-index: 100;
+}
+
+#map-loading .map-info li {
+    list-style: none;
+    color: #ffbb17;
+    font-size: 1.4vw;
+    margin-bottom: 0.5vw;
+    font-weight: bold;
+}
+
+#map-loading .map-info li .fa {
+    color: #fff;
+}
+
+#map-loading .loader {
+    position: absolute;
+    left: 36vw;
+    z-index: 100;
+    top: 85vh;
+}

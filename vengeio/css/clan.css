@@ -1,0 +1,457 @@
+.clan-home {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.clan-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background: rgb(0 0 0 / 50%);
+    /*border: 2px solid #fff;
+    background: rgb(255,149,2);
+    background: linear-gradient(90deg, rgba(255,149,2,0.8) 0%, rgba(8,4,8,0.6) 100%);*/
+    border-radius: 10px;
+    color: #fff;
+}
+
+.clan-level {
+    position: relative;
+    margin-right: 15px;
+}
+
+.clan-level img {
+    width: 57px;
+}
+
+.clan-level p {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    line-height: 1;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0px 1px 3px #000;
+    margin: 0;
+}
+
+.clan-level span {
+    font-size: 13px;
+}
+
+.clan-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.clan-status {
+    display: flex;
+    flex-direction: column;
+}
+
+.clan-owner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+    color: #e5e5e5;
+    margin-top: 10px;
+}
+
+.clan-owner img {
+    width: 25px;
+    filter: brightness(0.9);
+    margin-right: 5px;
+}
+
+.clan-amount {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.clan-amount .amount {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+}
+
+.clan-amount .amount p {
+    margin: 5px;
+}
+
+.clan-amount .deposit {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.clan-amount .deposit .deposit-field {
+    display: flex;
+    flex-direction: row;
+}
+
+.deposit-field input {
+    border: 2px solid #ff9502;
+    background: #000;
+    border-radius: 5px;
+    outline: none !important;
+    color: #fff;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.deposit-field .btn-clan {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ff9502;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: ease all 0.3s;
+}
+
+.clan-amount .deposit p {
+    color: #858585;
+    margin: 10px 0 0 0;
+}
+
+.deposit-field .btn-clan:hover {
+    color: #000;
+    background: #ff9502;
+    border: 2px solid #fff;
+}
+
+.clan-amount img {
+    width: 20px;
+    margin: 0 5px;
+}
+
+.clan-amount img.space {
+    margin-left: 30px;
+}
+
+.clan-content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.clan-details {
+    position: relative;
+    width: 37%;
+    border-left: 2px solid #181818;
+}
+
+.clan-details ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding-left: 25px;
+}
+
+.clan-details ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 47%;
+    height: 55px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    background: #655d53;
+}
+
+.clan-details ul li:last-child {
+    width: 100%;
+}
+
+.clan-details ul li span {
+    font-size: 15px;
+    color: #cdcdcd;
+}
+
+.clan-details .clan-social {
+    width: calc(100% - 50px);
+    margin: 0 auto;
+}
+
+.clan-details .clan-social a {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(73, 100, 233);
+    background: linear-gradient(180deg, rgba(73, 100, 233, 1) 0%, rgba(55, 76, 178, 1) 69%);
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    transition: ease all 0.2s;
+}
+
+.clan-details .clan-social a:hover {
+    transform: scale(1.05);
+}
+
+.clan-details .clan-social a img {
+    margin-right: 5px;
+}
+
+.clan-bank-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-donator {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-donator .top-donator-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+}
+
+.top-donator .top-donator-head h2 {
+    margin: 0;
+}
+
+.top-donator ul {
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    padding: 0;
+    border-bottom: 1px solid #3e3e3e;
+}
+
+.top-donator ul li {
+    padding: 10px 5px 10px 0;
+    margin: 0 10px 10px 0;
+    color: #fff;
+}
+
+.top-donator ul li:last-child {
+    border-radius: 0;
+}
+
+.top-donator ul li img {
+    width: 15px
+}
+
+.clan-levels {
+    position: relative;
+    width: 100%;
+    margin: 50px 0 0 0;
+}
+
+.clan-levels h2 {
+    font-size: 25px;
+    color: #fff;
+}
+
+.clan-levels ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 0 0 0;
+    list-style: none;
+}
+
+.clan-levels ul li {
+    position: relative;
+    width: calc(100% / 5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clan-levels ul li:after {
+    content: "";
+    position: absolute;
+    top: 25px;
+    right: -35%;
+    transform: translateY(-50%);
+    width: 70%;
+    height: 1px;
+    background: #6c6c6c;
+    border-radius: 2px;
+}
+
+.clan-levels ul li:last-child::after {
+    content: none;
+}
+
+.clan-levels li .icons {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.clan-levels li .icons p {
+    position: absolute;
+    width: fit-content;
+    left: 50%;
+    bottom: -30px;
+    transform: translateX(-50%);
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.clan-levels li .level-four {
+    width: 50px;
+}
+
+.clan-levels li .icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 35px
+}
+
+.clan-levels li .level-detail {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;
+    background: url(../images/icons/Top-Seperator.png) no-repeat;
+    background-position: top center;
+    background-size: 100% 15px;
+}
+
+.clan-levels li .level-detail p {
+    margin: 10px 0;
+}
+
+.clan-levels li .level-detail p:first-child {
+    margin-top: 30px;
+}
+
+.clan-roles {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.clan-member-roles,
+.clan-roles .edit-role {
+    position: relative;
+    width: 48%;
+}
+
+.clan-member-roles:after {
+    content: "";
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%);
+    background: url('../images/icons/Caret-Icon.png') no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+.clan-member-roles h2,
+.clan-roles .edit-role h2 {
+    font-size: 20px;
+    color: #fff;
+    margin: 0 0 10px 0;
+}
+
+.clan-member-roles table {
+    display: inline-block;
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.clan-member-roles .pull-right {
+    text-align: right;
+}
+
+.clan-roles .role-form {
+    padding: 20px 0;
+}
+
+.clan-roles .role-form .field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.clan-roles .role-form .field.right-align {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.clan-roles .role-form .field label {
+    margin: 0 15px 0 0;
+}
+
+.clan-roles .role-form .field input {
+    font-size: 16px;
+}
+
+.clan-roles .role-form .field input.readdonly {
+    background: no-repeat;
+    color: #fff;
+    border: 0;
+    background: #000;
+}
+
+.clan-roles .role-form .field input[type="checkbox"] {
+    margin: 0;
+}
+
+.admin-settings,
+.member-settings {
+    margin-bottom: 50px;
+}

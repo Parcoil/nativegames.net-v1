@@ -14864,7 +14864,7 @@
                 return s.sC(), s.RI(), s.fI(i), s.FI(e), s.NI(r), s.LI = up.mC((function() {
                     ! function(t) {
                         var i = Kp("https://twitter.com/intent/tweet", {
-                            url: "https://supernice.games/breakoid",
+                            url: "https://nativegames.net/breakoid",
                             text: "I'm challenging you in Breakoid! Try to beat my score of %{score}! Play the free arcade action game now!".replace("%{score}", Rw(t)),
                             hashtags: "SuperniceBreakoid,highscore,arcade,action,webgames,mobilegames",
                             via: "SuperniceGames"
@@ -18517,7 +18517,7 @@
                         return e.i(), af(n), [3, 4];
                     case 3:
                         r = Kp("https://twitter.com/intent/tweet", {
-                            url: "https://supernice.games/breakoid/?level=" + t,
+                            url: "https://nativegames.net/breakoid/?level=" + t,
                             text: "Try my level!",
                             hashtags: "SuperniceBreakoid,highscore,arcade,action,webgames,mobilegames",
                             via: "SuperniceGames"
@@ -19139,7 +19139,7 @@
                             SE: n,
                             Wp: new Ct.bs(-220, -24, 440, 48),
                             jE: function() {
-                                window.open("https://supernice.games", "_blank")
+                                window.open("https://nativegames.net", "_blank")
                             },
                             We: function(t) {
                                 $a() || (n.pivot.y = 2 === t ? -3 : 0, n._6e_ = Zs(0 === t || 3 === t ? "_1q_" : "_1p_"))

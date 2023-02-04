@@ -1,0 +1,266 @@
+#pause h4 {
+    color: #777;
+    font-size: 1.5vw;
+    margin: 0px;
+    margin-bottom: 1vw;
+    text-transform: uppercase;
+}
+
+#pause-players {
+    width: 50vw;
+    margin-top: 16vh;
+    margin-left: 4vw;
+    position: absolute;
+    height: calc(100% - 180px);
+    overflow-y: scroll;
+    padding-right: 1vw;
+    overflow-x: hidden;
+}
+
+#pause-players .player-list {
+    font-size: 2vw;
+    margin: 0px;
+    background: rgb(29 29 29);
+    border: solid 0.2vw #232323;
+}
+
+#pause-players .player-list .hero-thumbnail-mini {
+    width: 5vw;
+}
+
+.player-list td {
+    padding: 0.1vw;
+}
+
+.player-list .username {
+    text-align: left;
+    width: 11vw;
+    font-weight: bold;
+    font-size: 1.5vw;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.player-list td:last-child {
+    width: 13vw;
+}
+
+#pause-players .player-list .kills {
+    /* display: block; */
+    color: #ffbb17;
+    font-size: 2vw;
+    font-weight: bold;
+    float: left;
+    width: 6vw;
+    line-height: 1vw;
+}
+
+#pause-players .player-list small {
+    display: block;
+    font-size: 1vw;
+    margin-left: 0.5vw;
+    color: #707070;
+    text-transform: uppercase;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    display: inline-block;
+    float: none;
+    width: 5vw;
+    text-align: left;
+    padding-left: 1.9vw;
+    /* margin-top: -3vw; */
+}
+
+#pause-players .player-list .deaths {
+    display: block;
+    color: #ff2d2d;
+    font-size: 2vw;
+    font-weight: bold;
+    float: left;
+    margin-left: 0vw;
+    width: 6vw;
+    line-height: 1vw;
+}
+
+#pause-players .player-list .deaths small {
+    /* display: block; */
+    font-size: 1vw;
+    margin-left: 1.9vw;
+    color: #707070;
+    text-transform: uppercase;
+    padding: 0px;
+}
+
+#pause-players .player-list .headshots {
+    display: block;
+    color: #ff562d;
+    font-size: 2vw;
+    font-weight: bold;
+    float: left;
+    margin-left: 0vw;
+    line-height: 1vw;
+    width: 8vw;
+    padding: 0px;
+}
+
+#pause-players .player-list .headshots small {
+    /* display: block; */
+    font-size: 1vw;
+    margin-left: 0.5vw;
+    color: #707070;
+    text-transform: uppercase;
+}
+
+#pause-players .player-list button {
+    font-size: 1vw !important;
+    cursor: pointer;
+    border: none;
+    color: #fff !important;
+    margin-right: 0.5vw;
+}
+
+#pause-players .player-list .button.danger {
+    float: right;
+    font-size: 1.2vw;
+    padding: 0.7vw;
+    background: rgb(44 44 44);
+    border-radius: 0.3vw;
+    margin-left: 0.5vw;
+    /* border: solid 0.15vw #191919; */
+    border-top: solid 0.15vw #464646;
+    border-bottom: solid 0.15vw #212121;
+    text-shadow: 0px 0.15vw 0px #000;
+}
+
+#pause-players .player-list .button {
+    float: right;
+    font-size: 1.2vw;
+    padding: 0.7vw;
+    background: rgb(216 162 34);
+    border-radius: 0.3vw;
+    margin-left: 0.5vw;
+    /* border: solid 0.15vw #191919; */
+    border-top: solid 0.15vw #ffc738;
+    border-bottom: solid 0.15vw #8d7226;
+    text-shadow: 0px 0.15vw 0px #b6881c;
+    opacity: 0.9;
+}
+
+#pause-loadout {
+    position: absolute;
+    right: 0vw;
+    width: calc(44vw - 85px);
+    margin-top: 16vh;
+    margin-right: 2vw;
+}
+
+#pause-loadout li {
+    background: #343434;
+    color: #fff;
+    list-style: none;
+    padding: 1.0vw;
+    padding-left: 1.5vw;
+    cursor: pointer;
+    background: rgb(122, 122, 122);
+    background: linear-gradient(338deg, rgb(255 255 255) 0%, rgb(35 35 35 / 52%) 50%);
+    position: relative;
+    margin-bottom: 3vw;
+    height: 7.9vw;
+    border-radius: 0.8vw;
+    transform: scale(1.0);
+}
+
+#pause-loadout li .weapon-name {
+    font-size: 2vw;
+    font-weight: bold;
+    display: block;
+    margin: 0px !important;
+    padding: 0px !important;
+    /* margin-bottom: 0px; */
+    height: 3vw;
+    /* float: left; */
+}
+
+#pause-loadout li .weapon-name img {
+    width: 4vw;
+    float: left;
+    margin-top: -0.8vw;
+    margin-right: 1vw;
+}
+
+#pause-loadout li .weapon-thumbnail {
+    width: 11vw;
+    float: right;
+    margin-top: -2vw;
+}
+
+#pause-loadout li p {
+    width: 26vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0px;
+    color: #898989;
+    font-size: 1vw;
+    display: ;
+}
+
+#pause-loadout li .shop-unlock {
+    /* float: right; */
+    transform: scale(0.7);
+    position: absolute;
+    right: -2vw;
+    bottom: -1.7vw;
+}
+
+#pause-loadout li .weapon-stats {
+    color: #fff;
+    margin-top: 1vw;
+    font-size: 1vw;
+}
+
+#pause-loadout li .weapon-stats .feature {
+    margin-right: 1vw;
+    border-right: solid 0.2vw #484848;
+    padding-right: 1vw;
+}
+
+#pause-loadout li .weapon-stats .feature:last-child {
+    border-right: none;
+}
+
+#pause-loadout li .weapon-stats .feature .property {
+    color: #666;
+}
+
+#pause-loadout li :nth-child(1) {
+    animation: slideInLeft 1s ease-out;
+    animation-fill-mode: forwards;
+}
+
+#pause-loadout li :nth-child(2) {
+    animation: slideInLeft 1s ease-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+#pause-loadout li:hover {
+    transform: scale(1.05);
+}
+
+.favorite-icon {
+    color: #ffcb03;
+    font-size: 1.5vw;
+    margin-top: 0.35vw;
+    float: left;
+    margin-right: 1vw;
+    text-shadow: 0px 0px 1vw #f7c024;
+}
+
+/* Mobile Devices */
+
+@media only screen and (max-width: 1090px) {
+    #pause-players {
+        width: calc(100% - 5vw);
+        box-sizing: border-box;
+    }
+}

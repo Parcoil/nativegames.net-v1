@@ -1,0 +1,334 @@
+#wrapper-shadow {
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.3);
+    font-family: Arial, sans-serif;
+    user-select: none;
+    z-index: 1000;
+}
+
+#sidebar {
+    width: 350px;
+    height: 100%;
+    right: -300px;
+    position: fixed;
+    background: #1c2025;
+    box-shadow: 10px 0px 30px #000000;
+    top: 0px;
+    transition: all 0.15s ease-out;
+    opacity: 0;
+    z-index: 100;
+}
+
+#sidebar.active {
+    opacity: 1;
+    right: 0px;
+}
+
+#sidebar li {
+    list-style: none;
+    color: #fff;
+    padding: 15px 25px;
+    border-bottom: solid 1px #2c333a;
+    background: #20262b;
+    box-shadow: inset 0px 5px 10px #1d2325;
+    border-left: solid 3px #20272a;
+    height: 20px;
+}
+
+#sidebar li .username {
+    margin: 0px;
+}
+
+#sidebar li.online {
+    border-left: solid 3px #49de06;
+}
+
+.status {
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    float: left;
+    background: #ccc;
+    margin-right: 15px;
+    margin-top: 2px;
+}
+
+.status.center-space {
+    margin-left: 17px;
+}
+
+.status.online {
+    background: #49de00;
+    box-shadow: 0px 0px 10px #91ff00;
+}
+
+#title {
+    margin: 0px;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    /* margin-left: -10px; */
+    /* margin-right: -20px; */
+    padding-left: 25px;
+    /* margin-top: -20px; */
+    background: #434a53;
+    padding-top: 10px;
+    color: #fff;
+    border-left: solid 3px #b9bbbd;
+}
+
+#close {
+    /* float: right; */
+    background: #474f56;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    height: 38px;
+    width: 50px;
+    text-align: center;
+    font-size: 21px;
+    line-height: 34px;
+    text-shadow: 0px 0px 1px #fff;
+}
+
+#chat-close {
+    float: right;
+    width: 40px;
+    background: #45585f;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    height: 39px;
+    margin-top: -8px;
+    margin-right: -20px;
+    font-size: 22px;
+    text-shadow: none;
+}
+
+.invite-button {
+    background: #007bce;
+    color: white;
+    float: right;
+    padding: 5px 12px;
+    border: none;
+    border-radius: 3px;
+    margin-top: -7px;
+    font-size: 15px;
+    border-top: solid 1px #25a6ff;
+    border-bottom: solid 1px #103b58;
+    cursor: pointer;
+    margin-right: -15px;
+    line-height: 21px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.chat-button {
+    background: #666;
+    border-top: solid 1px #828282;
+    padding-right: 6px;
+}
+
+#footer-description {
+    position: absolute;
+    bottom: 40px;
+    height: 13px;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background: #fff;
+    height: 40px;
+}
+
+#footer select {
+    height: 40px;
+    border: 0px;
+    width: 100%;
+    padding: 0px 20px;
+    font-size: 15px;
+    background: #44772c;
+    color: #fff;
+    box-shadow: inset 0px 5px 10px #4c8c2d;
+    cursor: pointer;
+    outline: none;
+}
+
+#footer select.offline {
+    background: #666;
+    box-shadow: inset 0px 5px 10px #333;
+}
+
+#notification-holder {
+    top: 200px;
+    position: fixed;
+    left: 0px;
+    z-index: 1001;
+}
+
+.invite-notification {
+    background: #272727;
+    padding: 10px 20px;
+    left: -320px;
+    opacity: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+    line-height: 26px;
+    font-family: Arial, sans-serif;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px #2f2f2f;
+    border-left: solid 4px #49de06;
+    transition: all 0.15s ease-out;
+    height: 26px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.invite-notification.active {
+    left: 20px;
+    opacity: 1;
+}
+
+.invite-notification .invite-button {
+    margin-top: -3px;
+    margin-right: -13px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 33px;
+    line-height: 20px;
+    margin-left: 30px;
+}
+
+.player-status {
+    float: right;
+    font-size: 11px;
+    margin-top: 3px;
+    color: #49de06;
+    width: 100px;
+    text-align: right;
+}
+
+.invite-notification .cancel-button {
+    margin-top: -3px;
+    margin-left: 21px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 33px;
+    line-height: 20px;
+    background: #d6491c;
+    border-top: solid 1px #ff815a;
+    border-bottom: solid 1px #8a381f;
+}
+
+.invite-notification .status {
+    margin-top: 7px;
+}
+
+#add-friend {
+    width: 100%;
+    background: #121517;
+    padding: 10px 20px;
+    border: none;
+    border-left: solid 3px #ababab;
+    font-size: 15px;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#player-holder {
+    height: calc(100% - 140px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#online-counter {
+    margin-left: 10px;
+    color: #989898;
+}
+
+#chat-panel {
+    position: absolute;
+    right: 380px;
+    top: 30px;
+    background: #2b2b2b;
+    box-shadow: 0px 0px 10px #232323;
+    width: 500px;
+    height: 292px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+#chat-title {
+    height: 39px;
+    width: 100%;
+    background: #3b4a50;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    text-shadow: 0px 1px 1px #000000;
+    /* text-transform: uppercase; */
+}
+
+#chat-messages {
+    width: 100%;
+    height: 210px;
+    border-bottom: solid 1px #565656;
+    overflow-y: auto;
+    overflow-x: hidden;
+    word-break: break-all;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+#chat-messages li {
+    list-style: none;
+}
+
+#chat-messages li.me {
+    color: #49de06;
+}
+
+#chat-input-box {
+    height: 40px;
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    color: #fff;
+    background: #272727;
+    outline: none;
+    font-size: 16px;
+    box-shadow: inset 0px 5px 10px #1d1d1d;
+}
+
+#empty-warning {
+    width: 100%;
+    height: 300px;
+    padding-top: 30px;
+    color: #fff;
+    text-align: center;
+}

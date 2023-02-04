@@ -1,0 +1,138 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.table-clickable {
+    cursor: pointer;
+}
+
+.table-clickable tr:hover {
+    background-color: rgb(255 255 255 / 24%) !important;
+}
+
+table td {
+    font-size: 19px;
+}
+
+table td:last-child,
+table th:last-child {
+    width: 180px;
+}
+
+table th,
+table td {
+    padding: 10px;
+}
+
+table .verification {
+    height: 16px;
+    float: left;
+    margin-right: 5px;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+table tr th {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+table .pull-right {
+    text-align: right;
+    float: right;
+}
+
+table small {
+    background: #3e546b;
+    color: #fff;
+    display: block;
+    float: left;
+    width: calc(100% - 5px);
+    font-size: 12px;
+    height: 2vh;
+    border-bottom-left-radius: 0.2vw;
+    border-bottom-right-radius: 0.2vw;
+    line-height: 2vh;
+    left: 0px;
+    text-align: center;
+    box-shadow: inset 0px 0.1vh 0.4vh #272727;
+}
+
+table a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 2px 5px;
+}
+
+table a.button {
+    padding: 5px 8px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+    background-color: #ff9502;
+}
+
+table a.leaderboard-items {
+    font-size: 17px;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+table button {
+    padding: 10px 15px !important;
+    font-size: 15px !important;
+}
+
+table button.btn-table {
+    background-color: #7e35c9;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 0px 0.05vw 0.2vw rgb(0 0 0 / 40%);
+    padding: 10px 15px !important;
+    margin-right: 5px;
+    font-size: 15px;
+    border-top: solid 1px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    outline: none;
+    white-space: nowrap;
+    transition: ease all 0.4s;
+    border: 1px solid transparent;
+}
+
+table button.btn-table i {
+    font-size: 14px;
+}
+
+table button.btn-table:hover {
+    background-color: #9e4af5;
+    border-color: #fff;
+}
+
+table .hero-thumbnail-image {
+    width: 30px;
+    margin-right: 10px;
+}
+
+table .rank-icon {
+    width: 20px;
+}
+
+/* Mobile Devices */
+
+@media only screen and (max-width : 900px) {
+    table td:last-child,
+    table th:last-child {
+        text-align: right;
+    }
+}
