@@ -10,7 +10,8 @@
 
 Nativegames is an Open Source Arcade Gaming Website
 
-
+# Size 
+![GitHub repo size](https://img.shields.io/github/repo-size/parcoil/nativegames.net?color=33B3DB&label=Totall%20Size)
 
 
 
