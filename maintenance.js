@@ -1,11 +1,13 @@
-let xhr = new XMLHttpRequest();
-xhr.open('GET', 'maintenance.txt', true);
-xhr.onreadystatechange = function() {
-  if (xhr.readyState === 4 && xhr.status === 200) {
-    let text = xhr.responseText;
-    if (text === 'true') {
-      window.location.href = 'maintenance.html';
+// make a request to the text file
+fetch('maintenance.txt')
+  .then(response => response.text())
+  .then(text => {
+    // check if the text contains the word "true"
+    if (text.includes('true')) {
+      // redirect to another page
+      window.location.href = 'maintenance';
     }
-  }
-};
-xhr.send();
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
