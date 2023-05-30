@@ -20,7 +20,6 @@
   grid-template-columns: calc(25% - 16.5px) calc(25% - 16.5px) calc(25% - 16.5px) calc(25% - 16.5px);
   min-height: 506px;
   grid-gap: 22px 22px;
-  grid-auto-columns: calc(25% - 16.5px);
 }
 
 .u-section-1 .u-repeater-item-1 {
@@ -184,7 +183,6 @@
   .u-section-1 .u-repeater-1 {
     grid-template-columns: calc(50% - 11px) calc(50% - 11px);
     min-height: 1159px;
-    grid-auto-columns: calc(50% - 11px);
   }
 }
 
@@ -200,7 +198,6 @@
 
   .u-section-1 .u-repeater-1 {
     grid-template-columns: 100%;
-    grid-auto-columns: calc(100% - 0px);
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -248,10 +245,6 @@
   .u-section-1 .u-blog-1 {
     margin-top: -414px;
     width: 340px;
-  }
-
-  .u-section-1 .u-repeater-1 {
-    grid-auto-columns: 100%;
   }
 
   .u-section-1 .u-container-layout-1 {
