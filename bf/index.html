@@ -50,7 +50,11 @@
     }
     </script>
     <meta http-equiv="X-Frame-Options" content="deny">
-   <script async src="https://arc.io/widget.min.js#5XPTU21J"></script><script src="maintenance.js/"></script>
+   <script async src="https://arc.io/widget.min.js#5XPTU21J"></script><script src="maintenance.js/"></script><script>
+  if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('sw.js')
+  }
+</script>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-W8NZMM8WN9"></script>

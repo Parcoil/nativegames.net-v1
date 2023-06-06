@@ -1,0 +1,28 @@
+{
+  "background_color": "#ffffff",
+  "description": "On Nativegames you can play free online games at home or at the school. Nativegames has the best online game selection and offers the most fun experience to play alone or With Friends",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Nativegames",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Native",
+  "start_url": "/",
+  "theme_color": "#478ac9",
+  "categories": [],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "images/favicon.png",
+      "type": "image/png",
+      "sizes": "195x253"
+    },
+    {
+      "src": "images/UntitledProject4.jpg",
+      "type": "image/jpeg",
+      "sizes": "1280x640"
+    }
+  ],
+  "shortcuts": [],
+  "lang": "en"
+}
