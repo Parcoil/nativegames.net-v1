@@ -19,9 +19,10 @@ Nativegames is an Open Source Arcade Gaming Website
 
 
 
-nativegames.net
+[nativegames.net](nativegames.net)
 
-
+## Version 
+![blahblah](https://img.shields.io/github/v/release/parcoil/nativegames.net?include_prereleases)
 
 ## Authors
 
@@ -43,5 +44,5 @@ nativegames.net
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-
+See All Domains [Here](https://github.com/Parcoil/nativegames.net/wiki/Domains)
 
