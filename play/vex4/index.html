@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+
+
+    <title>Vex 4</title>
+   <script async src="https://arc.io/widget.min.js#5XPTU21J"><script data-goatcounter="https://parcoil.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script></script><script src="maintenance.js/"></script><script>
+  if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('sw.js')
+  }
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W8NZMM8WN9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W8NZMM8WN9');
+</script><link rel="manifest" href="manifest.json">
+
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="application-name" content="Native">
+<meta name="apple-mobile-web-app-title" content="Native">
+<meta name="theme-color" content="#0275d8">
+<meta name="msapplication-navbutton-color" content="#0275d8">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="msapplication-starturl" content="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" type="image/png" sizes="195x253" href="images/native.png">
+<link rel="apple-touch-icon" type="image/png" sizes="195x253" href="images/native.png">
+
+
+    <link rel="stylesheet" href="assets/css/app.css" type="text/css" />
+
+</head>
+
+<body>
+
+    <div id="content"></div>
+    <div id="loader">Loading...</div>
+
+
+
+    <script type="text/javascript">
+        var gameName = "vex-4.min.js";
+
+
+
+
+
+
+        //This all here is for cache busting;
+        function addScript(src, buster, callback) {
+            var s = document.createElement('script');
+            s.setAttribute('src', src + '?v=' + buster);
+            if (typeof callback === 'function') {
+                s.onload = callback;
+            }
+            document.body.appendChild(s);
+        }
+
+
+
+        addScript('version.js', Date.now(), function() {
+
+            addScript(gameName, version, function() {
+                var game = new Vex4.Game();
+            });
+
+        });
+    </script>
+</body>
+
+</html>

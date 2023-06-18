@@ -1,0 +1,172 @@
+<html>
+<head>
+	<title>Tetris - Games | ?????????????????? ??????????</title>
+   <script async src="https://arc.io/widget.min.js#5XPTU21J"><script data-goatcounter="https://parcoil.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script></script><script src="maintenance.js/"></script><script>
+  if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('sw.js')
+  }
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W8NZMM8WN9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W8NZMM8WN9');
+</script><link rel="manifest" href="manifest.json">
+
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="application-name" content="Native">
+<meta name="apple-mobile-web-app-title" content="Native">
+<meta name="theme-color" content="#0275d8">
+<meta name="msapplication-navbutton-color" content="#0275d8">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="msapplication-starturl" content="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" type="image/png" sizes="195x253" href="images/native.png">
+<link rel="apple-touch-icon" type="image/png" sizes="195x253" href="images/native.png">
+
+	<link href="//fonts.googleapis.com/css?family=VT323" rel="stylesheet" type="text/css" />
+
+	<link href="styles.css" rel="stylesheet" type="text/css" />
+
+	<script src="cookie.js"></script>
+	<script src="gameControls.js"></script>
+	<script>
+
+	</script>
+	<script src="jawsjs.js"></script>
+	<script src="Block.js"></script>
+	<script src="Shapes.js"></script>
+	<script src="WallKicks.js"></script>
+	<script src="ControlGroup.js"></script>
+	<script src="Background.js"></script>
+	<script src="RandomBag.js"></script>
+	<script src="PreviewGroup.js"></script>
+	<script src="ScoreTracker.js"></script>
+	<script src="TtyBlock.js"></script>
+	<script src="Game.js"></script>
+	<script src="Game_Logic.js"></script>
+	<script src="Button.js"></script>
+	<script src="tetris.js"></script>
+	<script src="ScoreSaver.js"></script>
+
+
+	<script>
+		function onClickEvent(event) {
+			if (Tetris.currentInstance) {
+				Tetris.currentInstance.mouseClicked(event.layerX, event.layerY);
+			}
+		}
+	</script>
+
+</head>
+  <body>
+    <table border="0" class="mainTable">
+      <tr>
+	<td class="menuCell">
+	  <div class="menu">
+	    <img class="menuLogo" src="media/background/logo.png"></img>
+	    <br/><br/>
+
+	    <a href="index.html" class="bareLink">
+	      <div class="menuItem selectedMenuItem">Play TwitchTetris</div>
+	    </a>
+	    <br/>
+	    <a href="controls.html" class="bareLink">
+	      <div class="menuItem">Controls Options</div>
+	    </a>
+	    <br/>
+	    <a href="highScores.html" class="bareLink">
+	      <div class="menuItem">High Scores</div>
+	    </a>
+	    <br/>
+	    <a href="about.html" class="bareLink">
+	      <div class="menuItem">About TwitchTetris</div>
+	    </a>
+	    <br/>
+	    <a href="http://www.leighpauls.com" class="bareLink">
+	      <div class="menuItem">About the Developer</div>
+	    </a>
+	    <br/>
+
+	    <div class="instructions">
+	      <b> &gt TwitchTetris --help </b>
+	      <p>Use the keyboard controls to rotate and move the blocks as they fall</p>
+	      <p>Place the blocks to form horizontal lines, which will be removed and make all the blocks above fall down. If the blocks reach the top of the screen, the game is over!</p>
+	      <p>Clear multiple lines at a time, or clear lines in consective moves to earn more points.</p>
+	    </div>
+
+	  </div>
+	</td>
+	<td class="contentCell">
+	  <div class="gamePanel">
+	
+	    <div class="gameElements">
+	      <div class="ttyOutput scoreOutput" id="scoreDiv"></div>
+	      <div class="ttyOutput linesOutput" id="linesDiv"></div>
+	      <div class="ttyOutput levelOutput" id="levelDiv"></div>
+	      <div class="ttyOutput tickerOutput" id="tickerDiv"></div>
+	      
+	      <div class="gameEndOutputHidden" id="gameEndContainer">
+		<div style="padding:5px;" id="gameEndDiv"></div>
+	      </div>
+	      
+	      <canvas class="gameCanvas" id="gameCanvas" width="600" height="500" onclick="onClickEvent(event)" class="gameCanvas">Your browser does not natively support Html5, or the Canvas Tag. Using this browser is slowing the progress of the web. Please get a modern browser, such as Google Chrome or Mozzila FireFox</canvas>
+	    </div>
+      <div class="controlsTitle">
+	      <br/>
+	      <b>Best High Score:</b><br/>
+        <div id="bestscore" class="menuItem"></div>
+	    <div class="controlsTitle">
+	      <br/>
+	      <b>Controls:</b><br/>
+      </div>
+	      <table border="1" cellpadding="3" class="controlsTable">
+		<tr class="controlsTableHeader">
+		  <td width="80">Move Block</td>
+		  <td width="80">Soft Drop</td>
+		  <td width="80">Rotate</td>
+		  <td width="80">Save Piece</td>
+		  <td width="80">Hard Drop</td>
+		  <td width="80">Pause</td>
+		</tr>
+
+		<tr>
+		  <td><span id="shiftLeft">Left</span>, <span id="shiftRight">Right</span></td>
+		  <td><span id="softDrop">Down</span></td>
+		  <td><span id="rotateLeft">Z</span>, <span id="rotateRight">X, Up</span></td>
+		  <td><span id="swap">C, Shift</span></td>
+		  <td><span id="hardDrop">Space</span></td>
+		  <td>Esc</td>
+		</tr>
+
+	      </table>
+	    </div>
+	    <br/>
+	    <a href="controls.html" class="bareLink">
+	      <div class="menuItem">Controls Options</div>
+	    </a>
+
+	  </div>
+	</td>
+      </tr>
+    </table>
+    <script>
+		
+    const jsonScores = localStorage.getItem('highScores')
+    if (jsonScores !== null) {
+      const parse = JSON.parse(jsonScores);
+      const bestScore = parse[0];
+  document.getElementById("bestscore").innerHTML = bestScore.score;
+     } else {
+      document.getElementById("bestscore").innerHTML = "Haven't Played Yet";
+	 }
+    </script>
+  </body>
+</html>
