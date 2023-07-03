@@ -42360,7 +42360,17 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-image-2 {
   width: 116px;
   height: 150px;
-  margin: -129px auto 21px;
+  margin: -129px auto 0;
+}
+
+.u-header .u-btn-4 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  background-image: none;
+  animation-timing-function: ease-in-out;
+  margin: -82px 74px 60px auto;
 }
 @media (max-width: 1199px) {
   .u-header .u-btn-1 {
@@ -42382,6 +42392,16 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-image-2 {
     margin-top: -129px;
+  }
+
+  .u-header .u-btn-4 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 180deg;
+    --animation-custom_in-scale: 1;
+    margin-top: -82px;
+    margin-right: 0;
   }
 }
 
